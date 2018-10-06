@@ -14,29 +14,29 @@
  	      ComplexNumberSystem --- 2 : 3 ---> ComplexNumber
  
       ComplexNumberSystem
-         (-) ComplexNumber a, b, result
-         (-) int isInverse
-         (-) String whatAction
+            (-) ComplexNumber a, b, result
+            (-) int isInverse
+            (-) String whatAction
  	      (+) ComplexNumberSystem()		
  	      (+) ComplexNumberSystem(ComplexNumber aComplex)	
  	      (+) ComplexNumberSystem(ComplexNumber aComplex, ComplexNumber bComplex)	
  	      (+) ComplexNumberSystem(double realA)
-         (+) ComplexNumberSystem(double realA, double imaginaryA)	
-         (+) ComplexNumberSystem(double realA, double imaginaryA, double realB)
-         (+) ComplexNumberSystem(double realA, double imaginaryA, double realB, double imaginaryB)
-         (+) ComplexNumberSystem(double realA, double imaginaryA, ComplexNumber bComplex)
-         (+) ComplexNumberSystem(double realA, ComplexNumber bComplex)
-         (+) ComplexNumberSystem(double realA, double imaginaryA, ComplexNumber bComplex)
-         (+) ComplexNumberSystem(ComplexNumber aComplex, double realB)
+            (+) ComplexNumberSystem(double realA, double imaginaryA)	
+            (+) ComplexNumberSystem(double realA, double imaginaryA, double realB)
+            (+) ComplexNumberSystem(double realA, double imaginaryA, double realB, double imaginaryB)
+            (+) ComplexNumberSystem(double realA, double imaginaryA, ComplexNumber bComplex)
+            (+) ComplexNumberSystem(double realA, ComplexNumber bComplex)
+            (+) ComplexNumberSystem(double realA, double imaginaryA, ComplexNumber bComplex)
+            (+) ComplexNumberSystem(ComplexNumber aComplex, double realB)
  	      (+) ComplexNumberSystem(ComplexNumber aComplex, double realB, double imaginaryB)
  	      (+) ComplexNumberSystem(ComplexNumberSystem anotherComplexNumberSystem)
  	      (+) add()
-         (+) sub() 
-         (+) mult() 
-         (+) div()
-         (+) mod()
-         (+) invertA()
-         (+) invertB()
+            (+) sub() 
+            (+) mult() 
+            (+) div()
+            (+) mod()
+            (+) invertA()
+            (+) invertB()
  	      (+) getA()
  	      (+) getB()
  	      (+) getResult()
