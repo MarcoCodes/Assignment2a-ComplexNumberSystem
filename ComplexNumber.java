@@ -8,26 +8,26 @@
                   -------
                   Number
                   NumberSystem
- 	               AppDriver
+ 	            AppDriver
  
                   Associations
                   ------------
- 	               AppDriver --- 1 : 1 ---> ComplexNumberSystem
- 	               ComplexNumberSystem --- 2 : 3 ---> Number
+ 	            AppDriver --- 1 : 1 ---> ComplexNumberSystem
+ 	            ComplexNumberSystem --- 2 : 3 ---> Number
  
                   ComplexNumber
                   -------------
- 	               (-) Number realPart
+ 	            (-) Number realPart
                   (-) Number imagPart
                   (+) ComplexNumber() 
                   (+) ComplexNumber(double rP) 
                   (+) ComplexNumber(double rP, double iP)
- 	               (+) ComplexNumber(ComplexNumber anotherComplexNumber)
- 	               (+) setReal(double rP)
+ 	            (+) ComplexNumber(ComplexNumber anotherComplexNumber)
+ 	            (+) setReal(double rP)
                   (+) setImag(double iP)
- 	               (+) getReal()
+ 	            (+) getReal()
                   (+) getImag()
- 	               (+) toString()
+ 	            (+) toString()
                   
       @date         10/1/2018
  
