@@ -36,7 +36,7 @@ public class AppDriver
  	ComplexNumberSystem cSystemTest3 = new ComplexNumberSystem(cNumberTest3, cNumberTest2);
       System.out.println("ComplexNumberSystem(ComplexNumber, ComplexNumber): " + cSystemTest3.toString());
        	
- 	   ComplexNumberSystem cSystemTest4 = new ComplexNumberSystem(5.5);
+ 	ComplexNumberSystem cSystemTest4 = new ComplexNumberSystem(5.5);
       System.out.println("ComplexNumberSystem(Double): " + cSystemTest4.toString());
        
       ComplexNumberSystem cSystemTest5 = new ComplexNumberSystem(5.5, 2);
@@ -74,10 +74,10 @@ public class AppDriver
       System.out.println("GetImag(): " + Double.toString(cNumberTest1.getImag()));
       
       test.invertA();
-      System.out.println("InvertB(): " + test.toString());
+      System.out.println("InvertA(): " + test.toString());
       
       test.invertB();
-      System.out.println("InvertA(): " + test.toString());
+      System.out.println("InvertB(): " + test.toString());
       
       test.add();
       System.out.println("Add(): " + test.toString());
