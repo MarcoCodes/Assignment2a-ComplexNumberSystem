@@ -64,10 +64,10 @@ public class AppDriver
       System.out.println("ComplexNumberSystem(ComplexNumberSystem): " + test.toString()); 
       
       cNumberTest1.setReal(10);
-      System.out.println("SetReal(): " + Double.toString(cNumberTest1.getReal()));
+      System.out.println("SetReal(Double): " + Double.toString(cNumberTest1.getReal()));
       
       cNumberTest1.setImag(4.5);
-      System.out.println("SetImag(): " + Double.toString(cNumberTest1.getImag()));
+      System.out.println("SetImag(Double): " + Double.toString(cNumberTest1.getImag()));
       
       System.out.println("GetReal(): " + Double.toString(cNumberTest1.getReal()));
       
